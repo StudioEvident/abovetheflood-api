@@ -16,11 +16,6 @@ router.get("/:season?", async(req, res) => {
 
     const url = `https://abovetheflood.fr/archives${seasonForUrl}`;
 
-    page.on('console', consoleObj => {
-        if (consoleObj.text().startsWith("JSHandle@")) console.log(consoleObj._args[0]._remoteObject.preview.properties)
-        else console.log(consoleObj.text())
-    });
-
     await page.goto(url);
 
     const data = await page.evaluate((rawData) => {
@@ -48,65 +43,3 @@ router.get("/:season?", async(req, res) => {
 })
 
 module.exports = router;
-
-/**
- * @api {get} /bestPlayers/:season? Request the 10 best players.
- * @apiName GetBestPlayers
- * @apiGroup PlayersStats
- * @apiVersion 0.2.0
- * 
- * @apiParam {Number{1-4}} [season] This parameter is used to select the season for the list of the 10 best players.
- * 
- * @apiSuccess {Object} data The data of the 10 best players (including the name and the number of achievements for each players).
- * @apiSuccess {Object} request The request object.
- * 
- * @apiSuccessExample Example data on success:
- * {
- *  "data": {
- *      "1": {
- *          "name": "Atherosclerose",
- *          "achievements": "86"
- *      },
- *      "2": {
- *          "name": "Aquaponey__",
- *          "achievements": "86"
- *      },
- *      "3": {
- *          "name": "B0OOOCLAQUETTE",
- *          "achievements": "86"
- *      },
- *      "4": {
- *          "name": "PierrePanda68",
- *          "achievements": "86"
- *      },
- *      "5": {
- *          "name": "Racing_Man",
- *          "achievements": "85"
- *      },
- *      "6": {
- *          "name": "Oaristys",
- *          "achievements": "85"
- *      },
- *      "7": {
- *          "name": "Spyff_",
- *          "achievements": "85"
- *      },
- *      "8": {
- *          "name": "Tycklique",
- *          "achievements": "84"
- *      },
- *      "9": {
- *          "name": "_Procyon",
- *          "achievements": "82"
- *      },
- *      "10": {
- *          "name": "Kingart50",
- *          "achievements": "81"
- *      }
- *  },
- *  "request": {
- *      "type": "GET",
- *      "url": "https://abovetheflood.fr/archives"
- *  }
- * }
- */
