@@ -1,0 +1,489 @@
+{
+    "currentSeason": "4",
+
+    "activePlayers": {
+        "path": "body > article:nth-child(3) > table:nth-child(7) > tbody > tr:nth-child",
+        "name": " > td:nth-child(1)",
+        "timePlayed": " > td:nth-child(2)"
+    },
+
+    "bestPlayers": {
+        "path": "body > article:nth-child(3) > table:nth-child(4) > tbody > tr:nth-child",
+        "name": " > td:nth-child(1)",
+        "nbAchievements": " > td:nth-child(2)"
+    },
+
+    "player": {
+        "1": {
+            "informations": {
+                "firstConnection": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(1)",
+                "lastConnection": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(2)",
+                "playTime": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(4)",
+                "deaths": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(8)",
+                "kills": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(9)",
+                "mobKills": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(10)",
+                "bowShoots": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(12)",
+                "animalsBreeded": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(14)"
+            },
+
+            "distancesTraveled": {
+                "walk": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(1)",
+                "sneak": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(2)",
+                "sprint": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(3)",
+                "swim": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(5)",
+                "walkingOnTheWater": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(6)",
+                "walkingUnderTheWater": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(7)",
+                "climbing": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(9)",
+                "falling": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(10)",
+                "flying": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(11)",
+                "boat": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(13)",
+                "minecart": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(14)",
+                "elytra": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(15)",
+                "horse": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(17)",
+                "pig": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(18)",
+                "jumps": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(20)"
+            },
+
+            "blocsMined": {
+                "dirt": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(1) > strong",
+                "grass": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                "sand": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(3) > strong",
+                "gravel": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                "stone": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(1) > strong",
+                "coalOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                "ironOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(3) > strong",
+                "redstoneOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                "goldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(1) > strong",
+                "lapisOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                "diamondOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(3) > strong",
+                "emeraldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                "netherrack": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(1) > strong",
+                "quartzOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(2) > strong"
+            },
+
+            "toolsUsed": {
+                "wood": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(5) > strong"
+                },
+                "stone": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(5) > strong"
+                },
+                "iron": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(5) > strong"
+                },
+                "gold": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(5) > strong"
+                },
+                "diamond": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(5) > strong"
+                },
+                "enchantedItems": "body > article:nth-child(2) > p:nth-child(12) > strong:nth-child(1)",
+                "tradesWithPnjs": "body > article:nth-child(2) > p:nth-child(12) > strong:nth-child(3)"
+            },
+
+            "monstersKilled": {
+                "zombie": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                "skeleton": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                "spider": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(6) > strong",
+                "creeper": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(8) > strong",
+                "slime": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(10) > strong",
+                "zombiePigman": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                "magmaCube": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                "ghast": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(6) > strong",
+                "blaze": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(8) > strong",
+                "enderman": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                "enderDragon": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                "witherSkeleton": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                "witherBoss": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(4) > td:nth-child(4) > strong"
+            },
+
+            "achievements": "body > article:nth-child(2) > h3:nth-child(15)"
+        },
+
+        "2": {
+            "informations": {
+                "firstConnection": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(1)",
+                "lastConnection": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(2)",
+                "playTime": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(4)",
+                "deaths": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(8)",
+                "kills": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(9)",
+                "mobKills": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(10)",
+                "bowShoots": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(12)",
+                "animalsBreeded": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(14)"
+            },
+
+            "distancesTraveled": {
+                "walk": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(1)",
+                "sneak": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(2)",
+                "sprint": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(3)",
+                "swim": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(5)",
+                "walkingOnTheWater": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(6)",
+                "walkingUnderTheWater": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(7)",
+                "climbing": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(9)",
+                "falling": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(10)",
+                "flying": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(11)",
+                "boat": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(13)",
+                "minecart": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(14)",
+                "elytra": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(15)",
+                "horse": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(17)",
+                "pig": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(18)",
+                "jumps": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(20)"
+            },
+
+            "blocsMined": {
+                "dirt": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(1) > strong",
+                "grass": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                "sand": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(3) > strong",
+                "gravel": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                "stone": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(1) > strong",
+                "coalOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                "ironOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(3) > strong",
+                "redstoneOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                "goldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(1) > strong",
+                "lapisOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                "diamondOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(3) > strong",
+                "emeraldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                "netherrack": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(1) > strong",
+                "quartzOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(2) > strong"
+            },
+
+            "toolsUsed": {
+                "wood": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(5) > strong"
+                },
+                "stone": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(5) > strong"
+                },
+                "iron": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(5) > strong"
+                },
+                "gold": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(5) > strong"
+                },
+                "diamond": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(5) > strong"
+                },
+                "enchantedItems": "body > article:nth-child(2) > p:nth-child(12) > strong:nth-child(1)",
+                "tradesWithPnjs": "body > article:nth-child(2) > p:nth-child(12) > strong:nth-child(3)"
+            },
+
+            "monstersKilled": {
+                "zombie": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                "skeleton": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                "spider": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(6) > strong",
+                "creeper": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(8) > strong",
+                "slime": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(10) > strong",
+                "zombiePigman": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                "magmaCube": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                "ghast": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(6) > strong",
+                "blaze": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(8) > strong",
+                "enderman": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                "enderDragon": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                "witherSkeleton": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                "witherBoss": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(4) > td:nth-child(4) > strong"
+            },
+
+            "achievements": "body > article:nth-child(2) > h3:nth-child(15)"
+        },
+        "3": {
+            "informations": {
+                "firstConnection": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(1)",
+                "lastConnection": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(2)",
+                "playTime": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(4)",
+                "deaths": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(8)",
+                "kills": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(9)",
+                "mobKills": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(10)",
+                "bowShoots": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(12)",
+                "animalsBreeded": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(14)"
+            },
+
+            "distancesTraveled": {
+                "walk": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(1)",
+                "sneak": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(2)",
+                "sprint": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(3)",
+                "swim": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(5)",
+                "walkingOnTheWater": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(6)",
+                "walkingUnderTheWater": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(7)",
+                "climbing": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(9)",
+                "falling": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(10)",
+                "flying": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(11)",
+                "boat": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(13)",
+                "minecart": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(14)",
+                "elytra": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(15)",
+                "horse": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(17)",
+                "pig": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(18)",
+                "strider": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(20)",
+                "jumps": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(22)"
+            },
+
+            "blocsMined": {
+                "dirt": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(1) > strong",
+                "grass": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                "sand": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(3) > strong",
+                "gravel": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                "stone": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(1) > strong",
+                "coalOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                "ironOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(3) > strong",
+                "redstoneOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                "goldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(1) > strong",
+                "lapisOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                "diamondOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(3) > strong",
+                "emeraldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                "netherrack": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(1) > strong",
+                "quartzOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                "netherGoldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(3) > strong",
+                "ancientDebris": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(4) > strong"
+            },
+
+            "toolsUsed": {
+                "wood": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(5) > strong"
+                },
+                "stone": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(5) > strong"
+                },
+                "iron": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(5) > strong"
+                },
+                "gold": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(5) > strong"
+                },
+                "diamond": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(5) > strong"
+                },
+                "netherite": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(5) > strong"
+                },
+                "enchantedItems": "body > article:nth-child(2) > p:nth-child(12) > strong:nth-child(1)",
+                "tradesWithPnjs": "body > article:nth-child(2) > p:nth-child(12) > strong:nth-child(3)"
+            },
+
+            "monstersKilled": {
+                "zombie": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                "skeleton": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                "spider": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(6) > strong",
+                "creeper": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(8) > strong",
+                "slime": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(10) > strong",
+                "piglin": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                "zombifiedPiglin": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                "hoglin": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(6) > strong",
+                "zombifiedHoglin": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(8) > strong",
+                "magmaCube": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                "ghast": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                "blaze": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(6) > strong",
+                "enderman": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                "enderDragon": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(4) > td:nth-child(4) > strong",
+                "witherSkeleton": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(5) > td:nth-child(2) > strong",
+                "witherBoss": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(5) > td:nth-child(4) > strong"
+            },
+
+            "achievements": "body > article:nth-child(2) > h3:nth-child(15)"
+        },
+        "4": {
+            "informations": {
+                "firstConnection": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(1)",
+                "lastConnection": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(2)",
+                "playTime": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(4)",
+                "afkTime": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(5)",
+                "deaths": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(9)",
+                "kills": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(10)",
+                "mobKills": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(11)",
+                "bowShoots": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(13)",
+                "animalsBreeded": "body > article:nth-child(2) > p:nth-child(5) > strong:nth-child(15)"
+            },
+
+            "distancesTraveled": {
+                "walk": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(1)",
+                "sneak": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(2)",
+                "sprint": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(3)",
+                "swim": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(5)",
+                "walkingOnTheWater": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(6)",
+                "walkingUnderTheWater": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(7)",
+                "climbing": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(9)",
+                "falling": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(10)",
+                "flying": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(11)",
+                "boat": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(13)",
+                "minecart": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(14)",
+                "elytra": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(15)",
+                "horse": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(17)",
+                "pig": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(18)",
+                "strider": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(20)",
+                "jumps": "body > article:nth-child(2) > p:nth-child(7) > strong:nth-child(22)"
+            },
+
+            "blocsMined": {
+                "dirt": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(1) > strong",
+                "grass": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                "sand": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(3) > strong",
+                "gravel": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                "stone": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(1) > strong",
+                "coalOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                "ironOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(3) > strong",
+                "redstoneOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                "goldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(1) > strong",
+                "lapisOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                "diamondOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(3) > strong",
+                "emeraldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                "netherrack": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(1) > strong",
+                "quartzOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                "netherGoldOre": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(3) > strong",
+                "ancientDebris": "body > article:nth-child(2) > table:nth-child(9) > tbody > tr:nth-child(4) > td:nth-child(4) > strong"
+            },
+
+            "toolsUsed": {
+                "wood": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(1) > td:nth-child(5) > strong"
+                },
+                "stone": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(2) > td:nth-child(5) > strong"
+                },
+                "iron": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(3) > td:nth-child(5) > strong"
+                },
+                "gold": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(4) > td:nth-child(5) > strong"
+                },
+                "diamond": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(5) > td:nth-child(5) > strong"
+                },
+                "netherite": {
+                    "Sword": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(1) > strong",
+                    "Pickaxe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(2) > strong",
+                    "Axe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(3) > strong",
+                    "Shovel": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(4) > strong",
+                    "Hoe": "body > article:nth-child(2) > table:nth-child(11) > tbody > tr:nth-child(6) > td:nth-child(5) > strong"
+                },
+                "enchantedItems": "body > article:nth-child(2) > p:nth-child(12) > strong:nth-child(1)",
+                "tradesWithPnjs": "body > article:nth-child(2) > p:nth-child(12) > strong:nth-child(3)"
+            },
+
+            "monstersKilled": {
+                "zombie": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(2) > strong",
+                "skeleton": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(4) > strong",
+                "spider": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(6) > strong",
+                "creeper": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(8) > strong",
+                "slime": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(1) > td:nth-child(10) > strong",
+                "piglin": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(2) > strong",
+                "zombifiedPiglin": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(4) > strong",
+                "hoglin": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(6) > strong",
+                "zombifiedHoglin": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(2) > td:nth-child(8) > strong",
+                "magmaCube": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(2) > strong",
+                "ghast": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(4) > strong",
+                "blaze": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(3) > td:nth-child(6) > strong",
+                "enderman": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(4) > td:nth-child(2) > strong",
+                "enderDragon": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(4) > td:nth-child(4) > strong",
+                "witherSkeleton": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(5) > td:nth-child(2) > strong",
+                "witherBoss": "body > article:nth-child(2) > table:nth-child(14) > tbody > tr:nth-child(5) > td:nth-child(4) > strong"
+            },
+
+            "achievements": "body > article:nth-child(2) > h3:nth-child(15)"
+        }
+    },
+
+    "statistics": {
+        "toReplace": {
+            "playersPerDay": [
+                ["\n\tnew Chart(document.getElementById('dauChart').getContext('2d'), {\n\t\ttype: 'bar',\n\t\tdata: {\n\t\t\tlabels: ", ""],
+                [",\n\t\t\tdatasets: [{\n\t\t\t\tlabel: 'Joueurs actif ce jour',\n\t\t\t\tdata: ", ""],
+                [",\n\t\t\t\tbackgroundColor: 'rgba(54, 162, 235, 0.4)',\n\t\t\t\tborderColor: 'rgb(54, 162, 235)',\n\t\t\t\tborderWidth: 1\n\t\t\t}]\n\t\t},\n\t\toptions: {\n\t\t\tlegend: {\n\t\t\t\tdisplay: false\n\t\t\t},\n\t\t\tscales: {\n\t\t\t\tyAxes: [{\n\t\t\t\t\tticks: {\n\t\t\t\t\t\tbeginAtZero: true\n\t\t\t\t\t}\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t});\n\t", ""],
+                ["][", "|"]
+            ],
+            "playersMaxPerDay": [
+                ["\n\tnew Chart(document.getElementById('peakOnline').getContext('2d'), {\n\t\ttype: 'bar',\n\t\tdata: {\n\t\t\tlabels: ", ""],
+                [",\n\t\t\tdatasets: [{\n\t\t\t\tlabel: 'Pic de joueurs',\n\t\t\t\tdata: ", ""],
+                [",\n\t\t\t\tbackgroundColor: 'rgba(54, 162, 235, 0.4)',\n\t\t\t\tborderColor: 'rgb(54, 162, 235)',\n\t\t\t\tborderWidth: 1\n\t\t\t}]\n\t\t},\n\t\toptions: {\n\t\t\tlegend: {\n\t\t\t\tdisplay: false\n\t\t\t},\n\t\t\tscales: {\n\t\t\t\tyAxes: [{\n\t\t\t\t\tticks: {\n\t\t\t\t\t\tbeginAtZero: true\n\t\t\t\t\t}\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t});\n\t", ""],
+                ["][", "|"]
+            ],
+            "newPlayersPerDay": [
+                ["\n\tnew Chart(document.getElementById('newPlayers').getContext('2d'), {\n\t\ttype: 'bar',\n\t\tdata: {\n\t\t\tlabels: ", ""],
+                [",\n\t\t\tdatasets: [{\n\t\t\t\tlabel: 'Nouveaux joueurs',\n\t\t\t\tdata: ", ""],
+                [",\n\t\t\t\tbackgroundColor: 'rgb(75, 192, 192, 0.4))',\n\t\t\t\tborderColor: 'rgb(75, 192, 192)',\n\t\t\t\tborderWidth: 1\n\t\t\t}]\n\t\t},\n\t\toptions: {\n\t\t\tlegend: {\n\t\t\t\tdisplay: false\n\t\t\t},\n\t\t\tscales: {\n\t\t\t\tyAxes: [{\n\t\t\t\t\tticks: {\n\t\t\t\t\t\tbeginAtZero: true\n\t\t\t\t\t}\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t});\n\t", ""],
+                ["][", "|"]
+            ]
+        }
+    }
+}
