@@ -13,8 +13,7 @@ router.get("/:x/:y/:zoom?", async(req, res) => {
     const y = req.params.y
     const zoom = req.params.zoom
 
-    if (zoom === "0") var zoomLevel = "min"
-    else if (0 < Number(zoom) < 10) var zoomLevel = (-10+Number(zoom)).toString()
+    if (0 < Number(zoom) < 10) var zoomLevel = (-10+Number(zoom)).toString()
     else if (zoom === "10") var zoomLevel = "max"
     else var zoomLevel = "min"
 
@@ -57,25 +56,3 @@ router.get("/:x/:y/:zoom?", async(req, res) => {
 })
 
 module.exports = router;
-
-/**
- * @api {get} /map/:x/:y/:zoom? Request an image from the map.
- * @apiName MapScreenshot
- * @apiGroup GetMapImage
- * @apiVersion 0.4.0
- * 
- * @apiParam {Number{-5000-5000}} x The x coordinate for the screenshot.
- * @apiParam {Number{-5000-5000}} y The y coordinate for the screenshot.
- * @apiParam {Number{0-10}} [zoom] The zoom level for the screenshot.
- * 
- * @apiSuccess {String} imageLink The url of the screenshot.
- * @apiSuccess {Object} request The request object.
- * 
- * @apiSuccessExample Example data on success: 
- * {
- *  "imageLink": "https://image.noelshack.com/fichiers/2021/45/2/1636483520-img0.png",
- *  "request": {
- *      "type": "GET",
- *      "url": "https://map.abovetheflood.fr/#/-2000/64/2000/-3/survival/survival"
- * }
- */
