@@ -14,11 +14,6 @@ router.get("/:stat?", async(req, res) => {
 
     const url = `https://abovetheflood.fr/archives`;
 
-    page.on('console', consoleObj => {
-        if (consoleObj.text().startsWith("JSHandle@")) console.log(consoleObj._args[0]._remoteObject.preview.properties)
-        else console.log(consoleObj.text())
-    });
-
     await page.goto(url);
 
     const data = await page.evaluate((rawData, references, stat) => {
